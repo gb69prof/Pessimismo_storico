@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pessimismo storico di Leopardi - Mappa interattiva</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Pessimismo storico di Leopardi</h1>
+    <p>Mappa interattiva: dall&apos;uomo insoddisfatto alla natura madre benigna</p>
+    <nav>
+      <a href="index.html">Mappa</a>
+      <a href="uomo-leopardi.html">L'uomo secondo Leopardi</a>
+      <a href="sensismo.html">Sensismo</a>
+      <a href="teoria-visione-suono.html">Teoria visione e suono</a>
+      <a href="ruolo-natura.html">Ruolo della Natura</a>
+      <a href="idillio.html">Idillio</a>
+    </nav>
+  </header>
+  <main>
+    <section class="section-intro">
+      <p>
+        Questa mappa riassume il <span class="highlight">pessimismo storico</span>. Clicca sulle
+        varie zone per scoprire:
+      </p>
+      <ul>
+        <li>chi è <strong>l&apos;uomo</strong> per Leopardi;</li>
+        <li>come funziona la <strong>conoscenza sensibile</strong> (sensismo);</li>
+        <li>in che modo la <strong>visione vaga e il suono lontano</strong> generano poesia;</li>
+        <li>qual è il <strong>ruolo della Natura</strong> come madre benigna;</li>
+        <li>come nasce l&apos;<strong>idillio leopardiano</strong>.</li>
+      </ul>
+    </section>
+    <section class="image-wrapper">
+      <img src="assets/pessimismo-storico.jpg"
+           alt="Schema del pessimismo storico di Leopardi"
+           usemap="#mappaPessimismo" />
+      <map name="mappaPessimismo">
+        <!-- colonna sinistra: uomo, infinito, insoddisfazione -->
+        <area shape="rect"
+              coords="0,0,450,900"
+              href="uomo-leopardi.html"
+              alt="L'uomo secondo Leopardi"
+              title="Chi è l'uomo per Leopardi" />
+        <!-- colonna destra: dolore storico, allontanamento dalla natura, immaginazione -->
+        <area shape="rect"
+              coords="450,0,900,700"
+              href="teoria-visione-suono.html"
+              alt="Teoria della visione e del suono"
+              title="Dolore storico e bisogno di immaginazione" />
+        <!-- parte bassa: ruolo della natura, immaginazione, illusioni, madre benigna -->
+        <area shape="rect"
+              coords="0,700,900,1400"
+              href="ruolo-natura.html"
+              alt="Ruolo della Natura"
+              title="Natura madre benigna, immaginazione e illusioni" />
+      </map>
+      <p class="image-caption">
+        Clicca sulla parte sinistra per l&apos;uomo leopardiano, sulla destra per la teoria
+        della visione e del suono, in basso per il ruolo della Natura come madre benigna.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
